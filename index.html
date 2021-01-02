@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>
+        Saturday Task 41 
+    </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <style>
+        .card{
+          height: 450px;
+          background-color: beige;
+          font-family: cursive;
+          font-weight: 600;
+
+        }
+      </style>
+  </head>
+  <body id="body">
+   
+   
+  
+
+    <div class="card-columns">
+
+           <!--Question no 1-->
+          <div class="card">
+            <div class="card-header">
+              Question No 1
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Check Number Even Or Odd</h5>
+              <input type="number" id="Num" value="0" style="background-color: rgb(141, 141, 141);"><br><br>
+          
+              <button type="button" name="Q1" class="btn btn-primary" btn-lg btn-block onclick="checknumber()">Check
+                Number</button>
+              <p class="card-text" id="ChNo"></p>
+            </div>
+          </div>
+
+          <!--Question no 2-->
+          <div class="card">
+            <div class="card-header">
+              Question No 2
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Check Number Negative or Posstive</h5>
+              <input type="number" id="Num1" value="0" style="background-color: rgb(141, 141, 141);"><br><br>
+              
+              <button type="button" name="Q1" class="btn btn-primary" btn-lg btn-block onclick="checknumber1()">Check Number</button>
+              <p class="card-text" id="ChNo1"></p>
+            </div>
+          </div>
+
+            <!---Question no 3-->
+            <div class="card">
+              <div class="card-header">
+                Question No 3
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Enter your age check you are eligible for casting own vote ?</h5>
+                <input type="number" id="Num2" value="0" style="background-color: rgb(141, 141, 141);"><br><br>
+            
+                <button type="button" name="Q3" class="btn btn-primary" btn-lg btn-block onclick="checknumber2()">Check
+                  Number</button>
+                <p class="card-text" id="ChNo2"></p>
+              </div>
+            </div>
+
+            <!--Queston no 4-->
+            <div class="card">
+              <div class="card-header">
+                Question No 4
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Your Height in meter ?</h5>
+                <input type="number" id="Num3" value="0" style="background-color: rgb(141, 141, 141);"><br><br>
+            
+                <button type="button" name="Q4" class="btn btn-primary" btn-lg btn-block onclick="checknumber3()">Convert(cm)</button>
+                <p class="card-text" id="ChNo3"></p>
+              </div>
+            </div>
+
+            <!--Question no 5-->
+            <div class="card">
+              <div class="card-header">
+                Question No 5
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Enter Your Score less then 100 ?</h5>
+                <input type="number" id="Num4" value="0" style="background-color: rgb(141, 141, 141);"><br><br>
+            
+                <button type="button" name="Q5" class="btn btn-primary" btn-lg btn-block
+                  onclick="checknumber4()">Check Grade</button>
+                <p class="card-text" id="ChNo4"></p>
+              </div>
+            </div>
+
+            <!--Question no 6-->
+            <div class="card">
+                <div class="card-header">
+                  Question No 6
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Check Greater Number</h5>
+                  Enter the first Number :
+                  <input type="number" id="Num5"  style="background-color: rgb(141, 141, 141);"><br><br>
+                  Enter the second Number :
+                  <input type="number" id="num5"  style="background-color: rgb(141, 141, 141);"><br><br>
+              
+                  <button type="button" name="Q6" class="btn btn-primary" btn-lg btn-block onclick="checknumber5()">Check No</button>
+                  <p class="card-text" id="ChNo5"></p>
+                </div>
+            </div>
+
+            <!---Question no 7-->
+            <div class="card">
+              <div class="card-header">
+                Question No 7
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Show Object In Loop</h5>
+                Enter the first Name : <br>
+                <input type="text" id="fname"  style="background-color: rgb(141, 141, 141);"><br><br>
+                Enter the second Name :
+                <input type="text" id="lname"  style="background-color: rgb(141, 141, 141);"><br><br>
+            
+                <button type="button" name="Q7" class="btn btn-primary" btn-lg btn-block onclick="checknumber6()">Click See Fullname</button>
+                <p class="card-text" id="ChNo6"></p>
+              </div>
+          </div>
+
+          <!--Question no 8-->
+          <div class="card">
+            <div class="card-header">
+              Question No 8
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Find Haider Name</h5>
+              Enter Name : <br>
+              <button type="button" name="Q7" class="btn btn-primary" btn-lg btn-block onclick="fillarr()">click Input</button><br><br>
+              Click to Check Name : <br>
+              <button type="button" name="Q7" class="btn btn-primary" btn-lg btn-block onclick="myFunction()">Click check</button><br><br>
+
+              <p class="card-text" id="ChNo8"></p>
+            </div>
+        </div>
+        <!--Question no 9-->
+        <div class="card">
+          <div class="card-header">
+            Question No 9
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Change Class-header Background-Color</h5>
+            <p class="card-text" id="ChNo5"><b>Colors Name:</b> 'AliceBlue','AntiqueWhite','CornflowerBlue', 'DarkCyan' , 'CadetBlue'</p>
+            
+        
+            <button type="button" name="Q6" class="btn btn-primary" btn-lg btn-block onclick="backcolor()">Start</button>
+            
+          </div>
+      </div>
+
+      <!---Question no 10-->
+      <div class="card">
+        <div class="card-header">
+          Question No 10
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Enter Your Info</h5>
+          Name: <input type="text" id="name_10" value="" style="background-color: rgb(141, 141, 141);"><br><br>
+          Father Name: <input type="text" id="Fathername" value="" style="background-color: rgb(141, 141, 141);"><br><br>
+          age: <input type="number" id="age" value="" style="background-color: rgb(141, 141, 141);"><br><br>
+      
+          <button type="button" name="Q5" class="btn btn-primary" btn-lg btn-block
+            onclick="question10()">Show</button> <br>
+          Object:  <p class="card-text" id="object"></p><br>
+          Array:   <p class="card-text" id="array"></p>
+          
+        </div>
+      </div>
+
+
+      </div>
+    
+
+
+
+
+    <script src="task41.js"></script>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
